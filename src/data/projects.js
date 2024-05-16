@@ -33,8 +33,8 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: 'Mobile App (Coming Soon)',
-    category: 'React Native ',
+    title: 'Php Project (Coming Soon)',
+    category: 'Php -  Mysql',
     img: UIImage2,
   },
 ];

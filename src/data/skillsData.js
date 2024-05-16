@@ -5,6 +5,9 @@ const react =
 
 const typescript =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg';
+
+const php =
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg';
 const tailwindCss =
   'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/100px-Tailwind_CSS_Logo.svg.png?20230715030042 ';
 const sass =
@@ -24,11 +27,15 @@ const skills = [
   // if there are no skills, Skills section won't show up
   {
     icon: react,
-    name: 'React/React Native',
+    name: 'React',
   },
   {
     icon: typescript,
     name: 'Typescript',
+  },
+  {
+    icon: php,
+    name: 'Php',
   },
   {
     icon: tailwindCss,
