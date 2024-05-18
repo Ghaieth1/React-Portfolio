@@ -10,7 +10,7 @@ import Project1 from '../images/Chat App.png';
 export const projectsData = [
   {
     id: 1,
-    title: 'Fast Food Ordering App',
+    title: 'Realtime Chat App',
     category: 'React -  Zustand - Firebase',
     img: Project1,
     sourceCode: 'https://github.com/Ghaieth1/Chat-App-React',
