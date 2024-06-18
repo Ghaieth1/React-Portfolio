@@ -1,5 +1,3 @@
-import sql from '../images/Sql.png';
-
 const react =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg';
 
@@ -8,12 +6,15 @@ const typescript =
 
 const php =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg';
-const tailwindCss =
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/100px-Tailwind_CSS_Logo.svg.png?20230715030042 ';
+
+const laravel = 'https://www.svgrepo.com/show/353985/laravel.svg';
+
+const tailwindCss = 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg ';
 const sass =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg';
 const nodeJs =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg';
+const mysql = 'https://www.svgrepo.com/show/303251/mysql-logo.svg';
 const git =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg';
 const firebase =
@@ -21,6 +22,8 @@ const firebase =
 
 const mangoDB =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg';
+const WordPress =
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg';
 
 const skills = [
   // skills can be added or removed
@@ -38,6 +41,10 @@ const skills = [
     name: 'Php',
   },
   {
+    icon: laravel,
+    name: 'Laravel',
+  },
+  {
     icon: tailwindCss,
     name: 'TailwindCss',
   },
@@ -50,8 +57,8 @@ const skills = [
     name: 'NodeJs',
   },
   {
-    icon: sql,
-    name: 'Sql',
+    icon: mysql,
+    name: 'MySql',
   },
   {
     icon: firebase,
@@ -65,6 +72,10 @@ const skills = [
   {
     icon: git,
     name: 'Git',
+  },
+  {
+    icon: WordPress,
+    name: 'WordPress',
   },
 ];
 
