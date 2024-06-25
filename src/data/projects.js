@@ -4,7 +4,7 @@ import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 import Project3 from '../images/pokedex.png';
 import Project2 from '../images/Food App.png';
-import Project4 from '../images/Cv Builder.png';
+import Project4 from '../images/RemindMe.png';
 import Project1 from '../images/Chat App.png';
 
 export const projectsData = [
@@ -34,16 +34,16 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: 'Cv Builder App',
-    category: 'React  -  TailwindCSS  -  Vite',
+    title: 'Appointment and Payment Reminder System',
+    category: 'Wordpress -  Php -  Mysql',
     img: Project4,
-    sourceCode: 'https://github.com/Ghaieth1/Cv-Builder',
-    livePreview: 'https://cv-builder1.netlify.app',
+    sourceCode: 'https://github.com/Ghaieth1',
+    livePreview: 'https://remind-me.fr/',
   },
   {
     id: 4,
-    title: 'Php Project (Coming Soon)',
-    category: 'Php -  Mysql',
+    title: 'Laravel Project (Coming Soon)',
+    category: 'Laravel -  Mysql',
     img: UIImage2,
   },
 ];
