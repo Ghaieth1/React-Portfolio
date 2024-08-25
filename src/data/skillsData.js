@@ -7,8 +7,6 @@ const typescript =
 const php =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg';
 
-const laravel = 'https://www.svgrepo.com/show/353985/laravel.svg';
-
 const tailwindCss = 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg ';
 const sass =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg';
@@ -40,17 +38,14 @@ const skills = [
     icon: php,
     name: 'Php',
   },
-  {
-    icon: laravel,
-    name: 'Laravel',
-  },
+
   {
     icon: tailwindCss,
     name: 'TailwindCss',
   },
   {
     icon: sass,
-    name: 'Sass',
+    name: 'Scss',
   },
   {
     icon: nodeJs,

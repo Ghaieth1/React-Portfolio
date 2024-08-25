@@ -1,7 +1,5 @@
 // Import images
 
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
 import Project3 from '../images/pokedex.png';
 import Project2 from '../images/Food App.png';
 import Project4 from '../images/RemindMe.png';
@@ -39,11 +37,5 @@ export const projectsData = [
     img: Project4,
     sourceCode: 'https://github.com/Ghaieth1',
     livePreview: 'https://remind-me.fr/',
-  },
-  {
-    id: 4,
-    title: 'Laravel Project (Coming Soon)',
-    category: 'Laravel -  Mysql',
-    img: UIImage2,
   },
 ];
