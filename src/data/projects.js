@@ -4,6 +4,8 @@ import Project3 from '../images/pokedex.png';
 import Project2 from '../images/Food App.png';
 import Project4 from '../images/RemindMe.png';
 import Project1 from '../images/Chat App.png';
+import Project5 from '../images/Petits Details.png';
+import Project6 from '../images/First Sass.png';
 
 export const projectsData = [
   {
@@ -37,5 +39,21 @@ export const projectsData = [
     img: Project4,
     sourceCode: 'https://github.com/Ghaieth1',
     livePreview: 'https://remind-me.fr/',
+  },
+  {
+    id: 5,
+    title: 'Petits Détails Grands Designs',
+    category: 'React  -  TailwindCSS  -  Vite - Figma',
+    img: Project5,
+    sourceCode: 'https://github.com/Ghaieth1',
+    livePreview: 'https://petits-details-grands-designs.vercel.app/',
+  },
+  {
+    id: 6,
+    title: 'First SaaS',
+    category: 'React  -  TailwindCSS  -  Vite - Figma',
+    img: Project6,
+    sourceCode: 'https://github.com/Ghaieth1',
+    livePreview: 'https://first-saas-six.vercel.app/',
   },
 ];
