@@ -23,6 +23,12 @@ const mangoDB =
 const WordPress =
   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg';
 
+const python =
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg';
+
+const figma =
+  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg';
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -37,6 +43,10 @@ const skills = [
   {
     icon: php,
     name: 'Php',
+  },
+  {
+    icon: python,
+    name: 'Python',
   },
 
   {
@@ -71,6 +81,10 @@ const skills = [
   {
     icon: WordPress,
     name: 'WordPress',
+  },
+  {
+    icon: figma,
+    name: 'Figma',
   },
 ];
 
